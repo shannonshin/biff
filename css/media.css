@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/*웹뷰*/
+.panel,.mCon03Search,.mMainCon04{display:none;}
+
+
+/*모바일뷰*/
+@media screen and (max-width:768px){   /*반응형 관련 내용은 여기 중괄호 안에 다 넣어야됨*/
+    /*웹공통*/
+    body{min-width:auto;}
+    .inner{width:auto;}
+}
